@@ -58,7 +58,6 @@ plt.plot([s[0] for s in truestates],label="true")
 plt.plot([s[0] for s in est_states],label="Estimate")
 plt.legend()
 plt.show()
-
 ```
 
 <H3>Output:</H3>
