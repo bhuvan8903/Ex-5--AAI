@@ -12,7 +12,9 @@ Step 3: For each measurement, predict the next state using kf.predict().<BR>
 Step 4: Update the state estimate based on the measurement using kf.update().<BR>
 Step 5: Store the estimated state in a list.<BR>
 Step 6: Plot the true and estimated positions.<BR>
-<H3>Program:</H3>
+
+
+### Program:
 ```
 
 import numpy as np
@@ -60,7 +62,9 @@ plt.legend()
 plt.show()
 ```
 
-<H3>Output:</H3>
+
+### Output:
+
 <img width="543" height="413" alt="image" src="https://github.com/user-attachments/assets/ac6f99dd-5c4d-45cd-9a61-517147959110" />
 
 
